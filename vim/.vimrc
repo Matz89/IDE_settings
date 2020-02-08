@@ -59,8 +59,6 @@ au FileType javascript, html, css
     \ softtabstop=2
     \ shiftwidth=2
 
-au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
-
 au FileType *.ts setfiletype typescript
     \ setlocal syntax
     \ tabstop=2
